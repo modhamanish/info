@@ -1,0 +1,146 @@
+[
+  {
+    "name": "Aarohi FloMon",
+    "type": ["category_all", "react_native"]
+  },
+  {
+    "name": "Vbiz Prime",
+    "type": ["category_all", "react_native"]
+  },
+  {
+    "name": "VPC",
+    "type": ["category_all", "react_native"]
+  },
+  {
+    "name": "CRM Sales",
+    "type": ["category_all", "react_native"]
+  },
+  {
+    "name": "Vbiz Business Associates",
+    "type": ["category_all", "react_native"]
+  },
+  {
+    "name": "mGuru",
+    "type": ["category_all", "react_native"]
+  },
+  {
+    "name": "Rido-Passenger",
+    "type": ["category_all", "react_native"]
+  },
+  {
+    "name": "Rido-Driver",
+    "type": ["category_all", "react_native"]
+  },
+  {
+    "name": "Zuuride",
+    "type": ["category_all", "react_native"]
+  },
+  {
+    "name": "Simply Classic",
+    "type": ["category_all", "react_native"]
+  },
+  {
+    "name": "Shivechchha",
+    "type": ["category_all", "react_native"]
+  },
+  {
+    "name": "FAF",
+    "type": ["category_all", "react_native"]
+  },
+  {
+    "name": "Baby Shop",
+    "type": ["category_all", "react_native"]
+  },
+  {
+    "name": "Maa App",
+    "type": ["category_all", "react_native"]
+  },
+  {
+    "name": "Stock Management Application",
+    "type": ["category_all", "react_native"]
+  },
+  {
+    "name": "Tech Hoody",
+    "type": ["category_all", "react_native"]
+  },
+  {
+    "name": "Packnsend",
+    "type": ["category_all", "react_native"]
+  },
+  {
+    "name": "Morbi Assured",
+    "type": ["category_all", "react_native"]
+  },
+  {
+    "name": "Lead Trackerr",
+    "type": ["category_all", "react_native"]
+  },
+  {
+    "name": "IICMA",
+    "type": ["category_all", "react_native"]
+  },
+  {
+    "name": "RBL - Rajkot Business League",
+    "type": ["category_all", "react_native"]
+  },
+  {
+    "name": "FAF Dealer",
+    "type": ["category_all", "react_native"]
+  },
+  {
+    "name": "E Shopee 18",
+    "type": ["category_all", "react_native"]
+  },
+  {
+    "name": "EMCJET",
+    "type": ["category_all", "react_native"]
+  },
+  {
+    "name": "Africa Private Equity News",
+    "type": ["category_all", "react_native"]
+  },
+  {
+    "name": "Driver2u",
+    "type": ["category_all", "react_native"]
+  },
+  {
+    "name": "The EMI Club",
+    "type": ["category_all", "react_native"]
+  },
+  {
+    "name": "EMI Service App",
+    "type": ["category_all", "native_android"]
+  },
+  {
+    "name": "Security Systems",
+    "type": ["category_all", "native_android"]
+  },
+  {
+    "name": "PPC",
+    "type": ["category_all", "react_native"]
+  },
+  {
+    "name": "Jaldime - Food Ordering App",
+    "type": ["category_all", "flutter"]
+  },
+  {
+    "name": "Jaldime - Delivery Boy",
+    "type": ["category_all", "flutter"]
+  },
+  {
+    "name": "Fitness Club",
+    "type": ["category_all", "flutter"]
+  },
+  {
+    "name": "Write Caliber",
+    "type": ["category_all", "flutter"]
+  },
+  {
+    "name": "To Task",
+    "type": ["category_all", "react_js", "electron_js"]
+  },
+  {
+    "name": "PPC",
+    "type": ["category_all", "react_js", "electron_js"]
+  }
+]
