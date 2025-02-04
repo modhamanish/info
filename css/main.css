@@ -1481,6 +1481,12 @@ textarea.form-control, textarea.form-control:focus {
   /* height: 100% !important; */
 }
 
+.single-line{
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
 .portfolio-grid figure {
   width: 33.33333%;
   float: left;
