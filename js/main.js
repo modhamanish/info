@@ -1,25 +1,5 @@
 (function ($) {
   "use strict";
-  // Portfolio subpage filters
-  function portfolio_init() {
-    var portfolio_grid = $(".portfolio-grid"),
-      portfolio_filter = $(".portfolio-filters");
-
-    if (portfolio_grid) {
-      portfolio_grid.shuffle({
-        speed: 450,
-        itemSelector: "figure",
-      });
-
-      portfolio_filter.on("click", ".filter", function (e) {
-        portfolio_grid.shuffle("update");
-        e.preventDefault();
-        $(".portfolio-filters .filter").parent().removeClass("active");
-        $(this).parent().addClass("active");
-        portfolio_grid.shuffle("shuffle", $(this).attr("data-group"));
-      });
-    }
-  }
   // /Portfolio subpage filters
 
   // Hide Mobile menu
@@ -152,11 +132,11 @@
       $("#blog-sidebar").toggleClass("open");
     });
 
-    // Initialize Portfolio grid
-    var $portfolio_container = $(".portfolio-grid");
-    $portfolio_container.imagesLoaded(function () {
-      portfolio_init(this);
-    });
+    // // Initialize Portfolio grid
+    // var $portfolio_container = $(".portfolio-grid");
+    // $portfolio_container.imagesLoaded(function () {
+    //   portfolio_init(this);
+    // });
 
     // Blog grid init
     var $container = $(".blog-masonry");
