@@ -128,47 +128,47 @@ var PageTransitions = (function ($, options) {
     }
 
     function hideContent() {
-      $("#page-ajax-loaded").addClass("animated-section-moveToRight closed");
-      $("body").removeClass("ajax-page-visible");
-      setTimeout(function () {
-        $("#page-ajax-loaded.closed").html("");
-        ajaxLoadedContent.hide();
-      }, 500);
+      // $("#page-ajax-loaded").addClass("animated-section-moveToRight closed");
+      // $("body").removeClass("ajax-page-visible");
+      // setTimeout(function () {
+      //   $("#page-ajax-loaded.closed").html("");
+      //   ajaxLoadedContent.hide();
+      // }, 500);
     }
 
-    var href = $(".ajax-page-load").each(function () {
-      href = $(this).attr("href");
-      if (
-        location.hash ==
-        location.hash.split("/")[0] + "/" + href.substr(0, href.length - 5)
-      ) {
-        var toLoad = $(this).attr("href");
-        showContent();
-        ajaxLoadedContent.load(toLoad);
-        return false;
-      }
-    });
+    // var href = $(".ajax-page-load").each(function () {
+    //   href = $(this).attr("href");
+    //   if (
+    //     location.hash ==
+    //     location.hash.split("/")[0] + "/" + href.substr(0, href.length - 5)
+    //   ) {
+    //     var toLoad = $(this).attr("href");
+    //     showContent();
+    //     ajaxLoadedContent.load(toLoad);
+    //     return false;
+    //   }
+    // });
 
     $(document)
-      .on("click", ".main-menu, #ajax-page-close-button", function (e) {
+      .on("click", ".main-menu", function (e) {
         // Hide Ajax Loaded Page on Navigation cleck and Close button
         e.preventDefault();
         hideContent();
         location.hash = location.hash.split("/")[0];
       })
-      .on("click", ".ajax-page-load", function () {
-        // Show Ajax Loaded Page
-        var hash =
-          location.hash.split("/")[0] +
-          "/" +
-          $(this)
-            .attr("href")
-            .substr(0, $(this).attr("href").length - 5);
-        location.hash = hash;
-        showContent();
+    // .on("click", ".ajax-page-load", function () {
+    //   // Show Ajax Loaded Page
+    //   var hash =
+    //     location.hash.split("/")[0] +
+    //     "/" +
+    //     $(this)
+    //       .attr("href")
+    //       .substr(0, $(this).attr("href").length - 5);
+    //   location.hash = hash;
+    //   showContent();
 
-        return false;
-      });
+    //   return false;
+    // });
   }
 
   function Animate($pageTrigger, gotoPage) {
