@@ -8,11 +8,17 @@
   },
   {
     "name": "Vbiz Prime",
-    "type": ["category_all", "react_native"]
+    "type": ["category_all", "react_native"],
+    "image": "img/portfolio/1.jpg",
+    "description": "-",
+    "technology": ["React Native", "PHP"]
   },
   {
     "name": "VPC",
-    "type": ["category_all", "react_native"]
+    "type": ["category_all", "react_native"],
+    "image": "img/portfolio/VPC.jpg",
+    "description": "This application is used to manage payment details.",
+    "technology": ["React Native", "PHP"]
   },
   {
     "name": "CRM Sales",
@@ -86,19 +92,31 @@
   },
   {
     "name": "Maa App",
-    "type": ["category_all", "react_native"]
+    "type": ["category_all", "react_native"],
+    "image": "img/portfolio/1.jpg",
+    "description": "-",
+    "technology": ["React Native"]
   },
   {
     "name": "Stock Management Application",
-    "type": ["category_all", "react_native"]
+    "type": ["category_all", "react_native"],
+    "image": "img/portfolio/1.jpg",
+    "description": "-",
+    "technology": ["React Native"]
   },
   {
     "name": "Tech Hoody",
-    "type": ["category_all", "react_native"]
+    "type": ["category_all", "react_native"],
+    "image": "img/portfolio/1.jpg",
+    "description": "-",
+    "technology": ["React Native", "Node-Js"]
   },
   {
     "name": "Packnsend",
-    "type": ["category_all", "react_native"]
+    "type": ["category_all", "react_native"],
+    "image": "img/portfolio/1.jpg",
+    "description": "-",
+    "technology": ["React Native", "PHP"]
   },
   {
     "name": "Morbi Assured",
@@ -109,7 +127,10 @@
   },
   {
     "name": "Lead Trackerr",
-    "type": ["category_all", "react_native"]
+    "type": ["category_all", "react_native"],
+    "image": "img/portfolio/Lead-Trackerr.jpg",
+    "description": "This application lead Tracker and Manage Lead.",
+    "technology": ["React Native", "PHP"]
   },
   {
     "name": "IICMA",
@@ -120,39 +141,66 @@
   },
   {
     "name": "RBL - Rajkot Business League",
-    "type": ["category_all", "react_native"]
+    "type": ["category_all", "react_native"],
+    "image": "img/portfolio/1.jpg",
+    "description": "-",
+    "technology": ["React Native", "PHP"]
   },
   {
     "name": "FAF Dealer",
-    "type": ["category_all", "react_native"]
+    "type": ["category_all", "react_native"],
+    "image": "img/portfolio/1.jpg",
+    "description": "-",
+    "technology": ["React Native", "PHP"]
   },
   {
     "name": "E Shopee 18",
-    "type": ["category_all", "react_native"]
+    "type": ["category_all", "react_native"],
+    "image": "img/portfolio/1.jpg",
+    "description": "-",
+    "technology": ["React Native", "Laravel"]
   },
   {
     "name": "EMCJET",
-    "type": ["category_all", "react_native"]
+    "type": ["category_all", "react_native"],
+    "image": "img/portfolio/1.jpg",
+    "description": "-",
+    "technology": ["React Native"]
   },
   {
     "name": "Africa Private Equity News",
-    "type": ["category_all", "react_native"]
+    "type": ["category_all", "react_native"],
+    "image": "img/portfolio/1.jpg",
+    "description": "-",
+    "technology": ["React Native"]
   },
   {
     "name": "Driver2u",
-    "type": ["category_all", "react_native"]
+    "type": ["category_all", "react_native"],
+    "image": "img/portfolio/1.jpg",
+    "description": "-",
+    "technology": ["React Native"]
   },
   {
     "name": "The EMI Club",
-    "type": ["category_all", "react_native"]
+    "type": ["category_all", "react_native"],
+    "image": "img/portfolio/1.jpg",
+    "description": "-",
+    "technology": ["React Native"]
   },
   {
     "name": "EMI Service App",
-    "type": ["category_all", "native_android"]
+    "type": ["category_all", "native_android"],
+    "image": "img/portfolio/1.jpg",
+    "description": "-",
+    "technology": ["Android"]
   },
   {
     "name": "Security Systems",
-    "type": ["category_all", "native_android"]
+    "type": ["category_all", "native_android"],
+    "image": "img/portfolio/1.jpg",
+    "description": "-",
+    "technology": ["Android"]
   },
   {
     "name": "PPC",
@@ -163,26 +211,44 @@
   },
   {
     "name": "Jaldime - Food Ordering App",
-    "type": ["category_all", "flutter"]
+    "type": ["category_all", "flutter"],
+    "image": "img/portfolio/1.jpg",
+    "description": "-",
+    "technology": ["Flutter", "Laravel"]
   },
   {
     "name": "Jaldime - Delivery Boy",
-    "type": ["category_all", "flutter"]
+    "type": ["category_all", "flutter"],
+    "image": "img/portfolio/1.jpg",
+    "description": "-",
+    "technology": ["Flutter", "Laravel"]
   },
   {
     "name": "Fitness Club",
-    "type": ["category_all", "flutter"]
+    "type": ["category_all", "flutter"],
+    "image": "img/portfolio/1.jpg",
+    "description": "-",
+    "technology": ["Flutter", "Laravel"]
   },
   {
     "name": "Write Caliber",
-    "type": ["category_all", "flutter"]
+    "type": ["category_all", "flutter"],
+    "image": "img/portfolio/1.jpg",
+    "description": "-",
+    "technology": ["Flutter"]
   },
   {
     "name": "To Task",
-    "type": ["category_all", "react_js", "electron_js"]
+    "type": ["category_all", "react_js", "electron_js"],
+    "image": "img/portfolio/1.jpg",
+    "description": "-",
+    "technology": ["React JS", "Electron JS"]
   },
   {
     "name": "PPC",
-    "type": ["category_all", "react_js", "electron_js"]
+    "type": ["category_all", "react_js", "electron_js"],
+    "image": "img/portfolio/1.jpg",
+    "description": "-",
+    "technology": ["React JS", "Electron JS"]
   }
 ]
