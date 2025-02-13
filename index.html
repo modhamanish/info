@@ -1465,7 +1465,9 @@
               item.type
             )}'>
               <div class="portfolio-item-img" style="cursor: pointer">
-                <img src="img/portfolio/1.jpg" alt="${item.name}" title="" />`;
+                <img src="${item.image ?? "img/portfolio/1.jpg"}" alt="${
+                item.name
+              }" title="" />`;
               htmlD +=
                 "<a href='javascript:;' onclick='portfolioDetails(" +
                 JSON.stringify(item) +
@@ -1508,6 +1510,14 @@
         // });
       });
 
+      function shuffleArray(array) {
+        for (let i = array.length - 1; i > 0; i--) {
+          let j = Math.floor(Math.random() * (i + 1));
+          [array[i], array[j]] = [array[j], array[i]];
+        }
+        return array;
+      }
+
       // Portfolio subpage filters
       function portfolio_init() {
         var portfolio_grid = $(".portfolio-grid"),
@@ -1535,7 +1545,7 @@
         $(".ajax-page-title h1").text(item.name);
         let detailHtml = `
       <div class="col-sm-8 col-md-8 portfolio-block">
-            <img src="img/portfolio/full/1.jpg" alt="" />
+            <img src="${item.image ?? "img/portfolio/1.jpg"}" alt="" />
           </div>
 
           <div class="col-sm-4 col-md-4 portfolio-block">
@@ -1544,6 +1554,7 @@
               <div class="block-title">
                 <h3>Description</h3>
               </div>
+              <!--
               <ul class="project-general-info">
                 <li>
                   <p><i class="fa fa-user"></i> Alex Smith</p>
@@ -1555,9 +1566,9 @@
                   <p><i class="fa fa-calendar"></i> 25 december, 2016</p>
                 </li>
               </ul>
+              -->
 
-              <p class="text-justify">Aliquam euismod aliquam massa, quis eleifend dui sodales vitae. Interdum et
-                malesuada fames ac ante ipsum primis in faucibus.</p>
+              <p class="text-justify">${item.description ?? "-"}</p>
               <!-- /Project Description -->
 
               <!-- Technology -->
@@ -1566,24 +1577,27 @@
                   <h3>Technology</h3>
                 </div>
                 <ul class="tags">
-                  <li><a>HTML5</a></li>
+                  ${item.technology
+                    ?.map((name) => `<li><a>${name}</a></li>`)
+                    .join("\n")}
+                  <!-- <li><a>HTML5</a></li>
                   <li><a>CSS3</a></li>
                   <li><a>jQuery</a></li>
                   <li><a>Ajax</a></li>
-                  <li><a>PHP5</a></li>
+                  <li><a>PHP5</a></li> -->
                 </ul>
               </div>
               <!-- /Technology -->
 
               <!-- Share Buttons -->
-              <div class="btn-group share-buttons">
+              <!-- <div class="btn-group share-buttons">
                 <div class="block-title">
                   <h3>Share</h3>
                 </div>
                 <a href="#" target="_blank" class="btn"><i class="fab fa-facebook-f"></i> </a>
                 <a href="#" target="_blank" class="btn"><i class="fab fa-twitter"></i> </a>
                 <a href="#" target="_blank" class="btn"><i class="fab fa-dribbble"></i> </a>
-              </div>
+              </div> -->
               <!-- /Share Buttons -->
             </div>
             <!-- Project Description -->

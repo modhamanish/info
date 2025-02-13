@@ -1,7 +1,10 @@
 [
   {
     "name": "Aarohi FloMon",
-    "type": ["category_all", "react_native"]
+    "type": ["category_all", "react_native"],
+    "image": "img/portfolio/Aarohi-FloMon.jpg",
+    "description": "Sales Reporting management system.",
+    "technology": ["React Native", "PHP"]
   },
   {
     "name": "Vbiz Prime",
@@ -13,43 +16,73 @@
   },
   {
     "name": "CRM Sales",
-    "type": ["category_all", "react_native"]
+    "type": ["category_all", "react_native"],
+    "image": "img/portfolio/CRM-Sales.jpg",
+    "description": "Manage Inquiry, Meeting and Visit.",
+    "technology": ["React Native", "PHP"]
   },
   {
     "name": "Vbiz Business Associates",
-    "type": ["category_all", "react_native"]
+    "type": ["category_all", "react_native"],
+    "image": "img/portfolio/Vbiz-Business-Associates.jpg",
+    "description": "Opportunity to generate business from your group.",
+    "technology": ["React Native", "PHP"]
   },
   {
     "name": "mGuru",
-    "type": ["category_all", "react_native"]
+    "type": ["category_all", "react_native"],
+    "image": "img/portfolio/mGuru.jpg",
+    "description": "Mguru is an application, which would be used for educational purposes. This application would be a great aid to students and teachers as all kinds of books, notes and videos will be available here. Being user-friendly, it would be easily accessible.",
+    "technology": ["React Native", "PHP"]
   },
   {
-    "name": "Rido-Passenger",
-    "type": ["category_all", "react_native"]
+    "name": "Rido-Customer",
+    "type": ["category_all", "react_native"],
+    "image": "img/portfolio/Rido-Customer.jpg",
+    "description": "",
+    "technology": ["React Native", "PHP"]
   },
   {
     "name": "Rido-Driver",
-    "type": ["category_all", "react_native"]
+    "type": ["category_all", "react_native"],
+    "image": "img/portfolio/Rido-Driver.jpg",
+    "description": "",
+    "technology": ["React Native", "PHP"]
   },
   {
     "name": "Zuuride",
-    "type": ["category_all", "react_native"]
+    "type": ["category_all", "react_native"],
+    "image": "img/portfolio/Zuuride.jpg",
+    "description": "Zuuride is a reputable community marketplace that links empty-seat drivers with passengers searching for a trip. Zuuride intends to make travel social, money-saving, and more effective for millions of members with dedicated customer support, a cutting-edge online and mobile network!",
+    "technology": ["React Native", "PHP"]
   },
   {
     "name": "Simply Classic",
-    "type": ["category_all", "react_native"]
+    "type": ["category_all", "react_native"],
+    "image": "img/portfolio/Simply-Classic.jpg",
+    "description": "Simply Classiq provides a platform for our esteemed customers to order laundry pick up services. Clothes are washed, dried, and ironed. Customer can track the whole process right from their phone.",
+    "technology": ["React Native", "PHP"]
   },
   {
     "name": "Shivechchha",
-    "type": ["category_all", "react_native"]
+    "type": ["category_all", "react_native"],
+    "image": "img/portfolio/Shivechchha.jpg",
+    "description": "Psychology therapy app.",
+    "technology": ["React Native", "PHP"]
   },
   {
     "name": "FAF",
-    "type": ["category_all", "react_native"]
+    "type": ["category_all", "react_native"],
+    "image": "img/portfolio/FAF.jpg",
+    "description": "Morbi Ceramics Associations has create a group for all those who are associated with the business of CERAMIC i.e. Vitrified Tiles, Wall Tiles, Floor Tiles & Sanitary wares.\n'FAF' helps to aware the industrialist from useful new policies to secure the business. Also helps all the members to solve their issues regarding business, The main intention of the Association is to be helpful in all the possible ways to the members to secure their venture from FRAUD as well as grow their business.\nThe purpose of FAF is to cope up the due amount of the group member from the Default Parties. FAF will work for the recovery of Payment & C- Form & will take invincible actions against Fraud or Blacklisted Parties.",
+    "technology": ["React Native", "PHP"]
   },
   {
     "name": "Baby Shop",
-    "type": ["category_all", "react_native"]
+    "type": ["category_all", "react_native"],
+    "image": "img/portfolio/Baby-Shop.jpg",
+    "description": "E-commerce application for baby products.",
+    "technology": ["React Native", "Laravel"]
   },
   {
     "name": "Maa App",
@@ -69,7 +102,10 @@
   },
   {
     "name": "Morbi Assured",
-    "type": ["category_all", "react_native"]
+    "type": ["category_all", "react_native"],
+    "image": "img/portfolio/Morbi-Assured.jpg",
+    "description": "labor network with one roof. any company find the labors with this application and can maintain the history. With help of the association, labor can find the job easily and can add into this for map into an association.",
+    "technology": ["React Native", "PHP"]
   },
   {
     "name": "Lead Trackerr",
@@ -77,7 +113,10 @@
   },
   {
     "name": "IICMA",
-    "type": ["category_all", "react_native"]
+    "type": ["category_all", "react_native"],
+    "image": "img/portfolio/IICMA.jpg",
+    "description": "Complaint management system.",
+    "technology": ["React Native", "PHP"]
   },
   {
     "name": "RBL - Rajkot Business League",
@@ -117,7 +156,10 @@
   },
   {
     "name": "PPC",
-    "type": ["category_all", "react_native"]
+    "type": ["category_all", "react_native"],
+    "image": "img/portfolio/PPC.jpg",
+    "description": "P.Prabhudas Executive",
+    "technology": ["React Native", "PHP"]
   },
   {
     "name": "Jaldime - Food Ordering App",
