@@ -75,6 +75,22 @@ var PageTransitions = (function ($, options) {
     );
     ajaxLoader();
 
+    $(document).keydown(function (event) {
+      if (event.key === "ArrowLeft" || event.key === "ArrowUp") {
+        var activeItem = $(".main-menu a.active").parent("li");
+        activeItem.prev("li").children("a").click();
+        if (activeItem.is(":first-child")) {
+          $(".main-menu li:last-child").children("a").click();
+        }
+      } else if (event.key === "ArrowRight" || event.key === "ArrowDown") {
+        var activeItem = $(".main-menu a.active").parent("li");
+        activeItem.next("li").children("a").click();
+        if (activeItem.is(":last-child")) {
+          $(".main-menu li:first-child").children("a").click();
+        }
+      }
+    });
+
     $(".lmpixels-arrow-right").click(function () {
       var activeItem = $(".main-menu a.active").parent("li");
       activeItem.next("li").children("a").click();
@@ -149,13 +165,12 @@ var PageTransitions = (function ($, options) {
     //   }
     // });
 
-    $(document)
-      .on("click", ".main-menu", function (e) {
-        // Hide Ajax Loaded Page on Navigation cleck and Close button
-        e.preventDefault();
-        hideContent();
-        location.hash = location.hash.split("/")[0];
-      })
+    $(document).on("click", ".main-menu", function (e) {
+      // Hide Ajax Loaded Page on Navigation cleck and Close button
+      e.preventDefault();
+      hideContent();
+      location.hash = location.hash.split("/")[0];
+    });
     // .on("click", ".ajax-page-load", function () {
     //   // Show Ajax Loaded Page
     //   var hash =
