@@ -1,5 +1,45 @@
 [
   {
+    "name": "react-native-transformable-view",
+    "type": ["category_all", "rn_libs", "react_native"],
+    "image": "img/portfolio/1.jpg",
+    "description": "A React Native Transformable View component that enables intuitive drag, rotate, and scale interactions on any view. Built with react-native-reanimated and react-native-gesture-handler.",
+    "technology": ["React Native", "TypeScript", "Reanimated", "Gesture Handler"],
+    "url": "https://www.npmjs.com/package/@modhamanish/react-native-transformable-view"
+  },
+  {
+    "name": "react-native-text-wrap-around-image",
+    "type": ["category_all", "rn_libs", "react_native"],
+    "image": "img/portfolio/1.jpg",
+    "description": "A React Native component for wrapping text around images with support for floating layouts, circular shapes, and custom styling using WebView.",
+    "technology": ["React Native", "TypeScript", "WebView", "HTML/CSS"],
+    "url": "https://www.npmjs.com/package/@modhamanish/react-native-text-wrap-around-image"
+  },
+  {
+    "name": "rn-mm-template",
+    "type": ["category_all", "rn_libs", "react_native"],
+    "image": "img/portfolio/1.jpg",
+    "description": "A robust and modern React Native template built with TypeScript, designed to jumpstart your mobile application development with React Navigation v7 and Reanimated v4.",
+    "technology": ["React Native", "TypeScript", "Boilerplate", "React Navigation"],
+    "url": "https://www.npmjs.com/package/@modhamanish/rn-mm-template"
+  },
+  {
+    "name": "rn-electric-border",
+    "type": ["category_all", "rn_libs", "react_native"],
+    "image": "img/portfolio/1.jpg",
+    "description": "A React Native Electric Border component with animated glowing neon border effect using Skia and Reanimated.",
+    "technology": ["React Native", "TypeScript", "Skia", "Reanimated"],
+    "url": "https://www.npmjs.com/package/@modhamanish/rn-electric-border"
+  },
+  {
+    "name": "rn-network-logger",
+    "type": ["category_all", "rn_libs", "react_native"],
+    "image": "img/portfolio/1.jpg",
+    "description": "A React Native Network Logger and inspector component for intercepting and debugging network requests and responses in real-time via WebSockets.",
+    "technology": ["React Native", "TypeScript", "WebSocket", "Axios"],
+    "url": "https://www.npmjs.com/package/@modhamanish/rn-network-logger"
+  },
+  {
     "name": "Aarohi FloMon",
     "type": ["category_all", "react_native"],
     "image": "img/portfolio/Aarohi-FloMon.jpg",
