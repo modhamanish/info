@@ -1,7 +1,7 @@
 [
   {
     "name": "react-native-transformable-view",
-    "type": ["category_all", "rn_libs", "react_native"],
+    "type": ["category_all", "npm_lind", "react_native"],
     "image": "img/portfolio/rn_libs_1.png",
     "description": "A React Native Transformable View component that enables intuitive drag, rotate, and scale interactions on any view. Built with react-native-reanimated and react-native-gesture-handler.",
     "technology": [
@@ -14,7 +14,7 @@
   },
   {
     "name": "react-native-text-wrap-around-image",
-    "type": ["category_all", "rn_libs", "react_native"],
+    "type": ["category_all", "npm_lind", "react_native"],
     "image": "img/portfolio/rn_libs_2.png",
     "description": "A React Native component for wrapping text around images with support for floating layouts, circular shapes, and custom styling using WebView.",
     "technology": ["React Native", "TypeScript", "WebView", "HTML/CSS"],
@@ -22,7 +22,7 @@
   },
   {
     "name": "rn-mm-template",
-    "type": ["category_all", "rn_libs", "react_native"],
+    "type": ["category_all", "npm_lind", "react_native"],
     "image": "img/portfolio/rn_libs_3.png",
     "description": "A robust and modern React Native template built with TypeScript, designed to jumpstart your mobile application development with React Navigation v7 and Reanimated v4.",
     "technology": [
@@ -35,7 +35,7 @@
   },
   {
     "name": "rn-electric-border",
-    "type": ["category_all", "rn_libs", "react_native"],
+    "type": ["category_all", "npm_lind", "react_native"],
     "image": "img/portfolio/rn_libs_4.png",
     "description": "A React Native Electric Border component with animated glowing neon border effect using Skia and Reanimated.",
     "technology": ["React Native", "TypeScript", "Skia", "Reanimated"],
@@ -43,7 +43,7 @@
   },
   {
     "name": "rn-network-logger",
-    "type": ["category_all", "rn_libs", "react_native"],
+    "type": ["category_all", "npm_lind", "react_native"],
     "image": "img/portfolio/rn_libs_5.png",
     "description": "A React Native Network Logger and inspector component for intercepting and debugging network requests and responses in real-time via WebSockets.",
     "technology": ["React Native", "TypeScript", "WebSocket", "Axios"],
