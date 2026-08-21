@@ -1529,10 +1529,13 @@
             window.PORTFOLIO_ITEMS = DATA_LIST;
             let htmlD = "";
             DATA_LIST.forEach(function (item, index) {
-              const iconClass =
-                item.type && item.type.includes("npm_lind")
-                  ? "fab fa-npm"
-                  : "fa fa-mobile";
+              const isNpm = item.type && item.type.includes("npm_lind");
+              const isReact = item.type && item.type.includes("react_js");
+              const iconClass = isNpm
+                ? "fab fa-npm"
+                : isReact
+                ? "fab fa-react"
+                : "fa fa-mobile";
               htmlD += `
             <figure class="item lbaudio" data-groups='${JSON.stringify(
               item.type,
@@ -1621,7 +1624,7 @@
                   ? `
               <div class="project-general-info" style="margin: 20px 0 10px;">
                 <a href="${item.url}" target="_blank" rel="noopener noreferrer" class="btn btn-primary" style="display: inline-flex; align-items: center; gap: 8px;">
-                  <i class="fab fa-npm" style="font-size: 16px;"></i> View on NPM
+                  <i class="${item.type && item.type.includes("npm_lind") ? "fab fa-npm" : "fas fa-external-link-alt"}" style="font-size: 16px;"></i> ${item.type && item.type.includes("npm_lind") ? "View on NPM" : "Visit Project / Live Demo"}
                 </a>
               </div>`
                   : ""

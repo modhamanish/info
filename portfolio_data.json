@@ -300,5 +300,29 @@
     "image": "img/portfolio/1.jpg",
     "description": "-",
     "technology": ["React JS", "Electron JS"]
+  },
+  {
+    "name": "MockGen - Mock API Generator",
+    "type": ["category_all", "react_js"],
+    "image": "img/portfolio/MockGen-Modern-Mock-API-Generator.png",
+    "description": "A modern mock API generator platform that enables developers to create, customize, and manage custom mock REST API endpoints in seconds with dynamic JSON responses. Perfect for rapid frontend development and API prototyping.",
+    "technology": ["React JS", "Node JS", "REST API", "Tailwind CSS"],
+    "url": "https://user-driven-mock-api-generator-clie.vercel.app"
+  },
+  {
+    "name": "Anastasiya Makshaeva Portfolio",
+    "type": ["category_all", "react_js"],
+    "image": "img/portfolio/Anastasiya-Makshaeva-Influencer-Portfolio.png",
+    "description": "An interactive, modern portfolio website built for sport & lifestyle influencer, trainer, and model Anastasiya Makshaeva, featuring brand collaboration showcases and dynamic media galleries.",
+    "technology": ["React JS", "Vite", "Tailwind CSS", "JavaScript"],
+    "url": "https://makshaeva-anastasiya-portfolio.vercel.app/"
+  },
+  {
+    "name": "LinkNova - Smart Deep Linking & QR Engine",
+    "type": ["category_all", "react_js"],
+    "image": "img/portfolio/LinkNova-Smart-Mobile-Deep-Linking-QR-Engine.png",
+    "description": "Smart mobile app deep links and universal QR code routing platform with analytics, intelligent device routing, and seamless fallback handling.",
+    "technology": ["React JS", "Node JS", "REST API", "Tailwind CSS"],
+    "url": "https://linknova.vercel.app/"
   }
 ]
